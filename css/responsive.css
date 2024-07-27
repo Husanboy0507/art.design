@@ -1,0 +1,14 @@
+@media only screen and (max-width:768px) {
+    .navbar .navbar__nav a{
+        display: none;
+    }
+    .banner__content .item{
+        width: 100%;
+    }
+    .banner__content h1{
+        font-size: 3rem;
+    }
+    .design__content, .blog__content, .about__content{
+        grid-template-columns: 1fr;
+    }
+}
